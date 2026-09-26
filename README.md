@@ -1,1 +1,1 @@
-# Cafe-Solis
+# CafeSolis
