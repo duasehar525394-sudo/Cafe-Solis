@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <title>Cafe Solis | Where Every Sip Has a Story</title>
+
+    <style>
+
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial,sans-serif;
+}
+
+#header{
+    background-color: #2b1b17;
+    width: 100%;
+    height: auto;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box
+}
+
+
+.logo img {
+    width: 500px;
+    height: auto;
+}
+
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu li{
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    color:#F5E6D3;
+    font-size: 30px;
+    border: 2px solid #F5E6D3;
+    padding: 10px 18px;
+    border-radius: 5px;
+}
+
+ #home {
+    background-color: #F5E6D3;
+    min-height: 750px;
+    padding: 0px;
+    text-align: center;
+    border-top: 3px solid #3E2723;
+}
+
+
+.hero-img{
+    width: 100%;
+    display: block;
+    margin:0 auto;
+}
+
+#about {
+    background-color:#3B1E1E;
+    color: #F5E6D3;
+    padding: 70px 80px;
+    text-align: center;
+    border-top: 3px solid #8C6239;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+}
+
+#about h2 {
+    color:#F5E6D3;
+    font-family: Georgia, serif;
+    font-size: 36px;
+}
+
+
+#about p {
+    font-size: 19px;
+    line-height: 1.8;
+    max-width: 750px;
+    margin: 20px auto;
+}
+
+#contact {
+    background-color:#C9A77C;
+    color: #2B1B17;
+    padding: 30px 50px;
+    text-align: center;
+    border-top: 3px solid #8C6239;
+}
+
+#contact h2 {
+    color: #2B1B17;
+    font-family: Georgia, serif;
+    font-size: 32px;
+    margin: 0 0 10px;
+}
+
+#contact p {
+    font-size: 16px;
+     margin: 0 0 25px;
+}
+
+#contact form {
+    width: 450px;
+    max-width: 100%;
+    margin: 0px auto;
+    text-align: left;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 9px;
+    margin-bottom: 12px;
+    border: 2px solid  #5D4037;
+    box-sizing: border-box;
+}
+
+#contact textarea {
+    height: 90px;
+}
+
+#contact input[type="submit"] {
+    width: auto;
+    background-color:#2B1B17;
+    color:#F5E6D3;
+    border: 2px solid #2B1B17;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+    </style>
+</head>
+      
+<body>
+
+<div id="header">
+<div class="logo">
+    <img src="Cafe_Solis_logo.png" class="home-img">
+</div>
+
+<div class="menu">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+    </ul>
+</div>
+
+</div>
+
+<div id="home">
+    <img src="homepage.png" alt="Cafe Solis" class="hero-img">
+</div>
+
+<div id="about">
+
+    <h2>Our Story</h2>
+
+    <p>
+        At Cafe Solis, we believe that every cup of coffee has a moment
+        behind it. Our café was created as a warm and welcoming space where
+        people can slow down, enjoy freshly brewed coffee, and share good
+        moments over delicious bites.
+    </p>
+
+    <p>
+        From the first morning sip to an evening catch-up with friends,
+        Cafe Solis is all about comfort, connection, and great coffee.
+    </p>
+
+</div>
+
+<div id="contact">
+
+    <h2>Contact Us</h2>
+
+    <p> We'd love to hear from you.</p>
+
+    <form>
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <input type="submit" value="Send Message">
+
+    </form>
+
+</div>
+
+
+</body>
+</html>
